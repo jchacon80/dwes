@@ -14,7 +14,7 @@ import javax.validation.constraints.NotEmpty;
 public class Empleado {
 	
 	@Id @GeneratedValue
-	@Min(1)
+	//@Min(1)
 	private long id;
 	
 	@Column(nullable=false)
